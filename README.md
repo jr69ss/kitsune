@@ -1,6 +1,8 @@
 # kitsune
 A hacking & pentesting framework/toolkit utilizing the best tools for a wide range of different task as well as custom scripts and programs coded by me.
 
+![Screen Shot 2020-09-13 at 8 46 58 PM](https://user-images.githubusercontent.com/71098497/93033036-7619ef00-f602-11ea-99da-46baf7c34ac4.png)
+
 
 
 ## Info Gathering
@@ -15,7 +17,7 @@ Efficient and quick footprinting/crawling of websites with Photon Crawler module
 - Automatically looks for auth or API keys/hashes
 - Option to choose either csv or json format to save data
 
-### Scanning
+### **Scanning**
 - Anonymous port scanning module with nmap + tor + proxychains.
 - GitHub repo secrets scanning module with truffleHog
   - Goes through entire commit history of each branch
