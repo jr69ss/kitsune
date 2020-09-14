@@ -22,7 +22,12 @@ Efficient and quick footprinting/crawling of websites with Photon Crawler module
 - Option to choose either csv or json format to save data
 
 ### **Scanning**
-- Anonymous port scanning module with nmap + tor + proxychains.
+- Anonymous port scanning module with nmap + tor + proxychains + DNSCrypt + Unbound.
+  - If you want to go hardcore on solving DNS leaking, set up an instance of BIND-DNS locally, and set all of your traffic to use Tor, so that any DNS lookups come from a server that you own, specifically, and not from one outside of your control. 
+  - You can further strengthen this by setting up a Tor as a transparent proxy for all outbound traffic, at which point, even the lookup sent from your DNS server (internally hosted) will run it’s query over Tor. 
+  - There are quite a few good tutorials on building transparent Tor proxies using either embedded boards (such as RPi3), or within a VM
+  
+ 
 - GitHub repo secrets scanning module with truffleHog
   - Goes through entire commit history of each branch
   - Check each diff from each branch
