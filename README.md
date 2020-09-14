@@ -1,4 +1,8 @@
 # kitsune
+
+**[!] I'm still working on this project and am long ways of finishing, but just wanted to upload the code to git cuz why not?**
+
+
 A hacking & pentesting framework/toolkit utilizing the best tools for a wide range of different task as well as custom scripts and programs coded by me.
 
 ![Screen Shot 2020-09-13 at 8 46 58 PM](https://user-images.githubusercontent.com/71098497/93033036-7619ef00-f602-11ea-99da-46baf7c34ac4.png)
