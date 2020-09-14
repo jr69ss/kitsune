@@ -161,17 +161,35 @@ def main():
                             os.system(myCmd1)
 
         if infochoice == "2":
-            anon = input("Do you want to remain anonymous while scanning (y or n): ")
 
-            if anon == "y":
-                URL = input("Input URL of target website: ")
-                import os
-                mCmd = ''
+            print("[1] Port Scanning")
+            print("[2] GitHub Secrets Scanning")
+            infochoice1 = input("Select a choice: ")
 
-            if anon == "n":
-                URL = input("Input URL of target website: ")
-                import os
+            if infochoice1 == "1":
+                anon = input("Do you want to remain anonymous while scanning (y or n): ")
 
+                if anon == "y":
+                    URL = input("Input URL of target website: ")
+                    print("[*] Resolving hostanme to an IP address to prevent DNS leaks, ")
+                    import os
+                    myCmd = 'tor-resolve ' + URL
+                    os.system(myCmd)
+                    print("[*] Now scanning ports")
+                    myCmd1 = 'proxychains4 nmap -sT -PN -n -sV -p 80,443,21,22 ' + myCmd
+                    os.system(myCmd1)
+                    print("ayyy u got em!")
+                
+
+
+                if anon == "n":
+                    URL = input("Input URL of target website: ")
+                    import os
+                    myCmd = 'nmap -v ' + URL
+                    print("ayyy u got em!")
+
+
+            
 
             
 if __name__ == '__main__':
