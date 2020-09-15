@@ -14,7 +14,7 @@ Please check out the wiki for full guides on using the various modules.
 
 
 ### Footprinting
-efficient and quick footprinting/crawling of websites with Photon Crawler module. 
+**efficient and quick footprinting/crawling of websites with Photon Crawler module.**
 - Cloning websites locally
 - Selecting level of depth of crawling
 - Selecting number of threads
@@ -24,27 +24,26 @@ efficient and quick footprinting/crawling of websites with Photon Crawler module
 - Option to choose either csv or json format to save data
 
 
+
 ### Scanning
-- ordinary Nmap recon scanning
-
-- Nmap Shodan API Scanning
+- **ordinary Nmap recon scanning** 
+- **Nmap Shodan API Scanning**
   - Utilizes Nmap's Shodan NSE script 
-
-- anonymous scanning with automated "burnable" DigitalOcean droplet deployment + nmap + tor.
-  - Most secure aggressive scanning method! (used by the pro bad guys lo
+- **anonymous scanning with automated "burnable" DigitalOcean droplet deployment + nmap + tor**
+  - Most secure aggressive scanning method! (used by the pro bad guys lol)
   - Automates droplet spinup and utilizes tor to avoid correlation attacks
   - Sets up nmap scanning automatically so you only need to input target URL/IP
   - Automatically "burns" the droplet after scanning is finished
- 
-- GitHub repo secrets scanning with truffleHog
+- **GitHub repo secrets scanning with truffleHog**
   - Goes through entire commit history of each branch
   - Check each diff from each branch
   - Checked through utilizing regex and entropy
-  - Evaluates Shannon entropy for both the base64 char set and hexidecimal char set.
-  - Custom regexes for things like subdomain enumeration and s3 bucket detection. 
+  - Evaluates Shannon entropy for both the base64 char set and hexidecimal char set
+  - Custom regexes for things like subdomain enumeration and s3 bucket detection
+  
   
 
 ### OSINT
-- facial recognition reverse image search module
+- **facial recognition search module*
   - With 1 pic and a name, you can search the internet for any SNS profiles. 
   - Modified EagleEye with better facial recognition algorithm and support for around 75 sites.
