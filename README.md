@@ -3,7 +3,7 @@
 **[!] I'm still working on this project and am long ways of finishing, but just wanted to upload the code to git cuz why not?**
 
 
-A hacking & pentesting framework/toolkit utilizing the best tools for a wide range of different task as well as custom scripts and programs coded by me.
+A hacking & pentesting framework/toolkit utilizing the best tools for a wide range of different tasks as well as custom scripts and programs coded by me.
 Please check out the wiki for full guides on using the various modules.
 
 ![Screen Shot 2020-09-13 at 8 46 58 PM](https://user-images.githubusercontent.com/71098497/93033036-7619ef00-f602-11ea-99da-46baf7c34ac4.png)
@@ -30,7 +30,7 @@ Please check out the wiki for full guides on using the various modules.
 - **Nmap Shodan API Scanning**
   - Utilizes Nmap's Shodan NSE script 
 - **anonymous scanning with automated "burnable" DigitalOcean droplet deployment + nmap + tor**
-  - Most secure aggressive scanning method! (used by the pro bad guys lol)
+  - very secure aggressive scanning method! (used by the pro bad guys lol)
   - Automates droplet spinup and utilizes tor to avoid correlation attacks
   - Sets up nmap scanning automatically so you only need to input target URL/IP
   - Automatically "burns" the droplet after scanning is finished
