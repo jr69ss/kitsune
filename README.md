@@ -44,6 +44,6 @@ Please check out the wiki for full guides on using the various modules.
   
 
 ### OSINT
-- **facial recognition search module*
+- **facial recognition search module**
   - With 1 pic and a name, you can search the internet for any SNS profiles. 
   - Modified EagleEye with better facial recognition algorithm and support for around 75 sites.
