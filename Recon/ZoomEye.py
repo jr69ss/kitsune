@@ -1,9 +1,6 @@
 import sys
-import json
 import requests
 from random import randint
-import signal
-import argparse
 
 
 # Make sure to change these to your ZoomEye credentials
