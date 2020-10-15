@@ -63,4 +63,4 @@ def getToken():
     except KeyError:
         # This isn't supressed in quiet mode because there won't bay any results
         print("[-] Invalid Credentials, please specify an email and password")
-        quit()
+        sys.exit()

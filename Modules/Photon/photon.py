@@ -19,7 +19,7 @@ try:
     from urllib.parse import urlparse  # For Python 3
 except ImportError:
     print('%s Photon runs only on Python 3.2 and above.' % info)
-    quit()
+    sys.exit()
 
 import core.config
 from core.config import INTELS
@@ -94,7 +94,7 @@ args = parser.parse_args()
 # If the user has supplied --update argument
 if args.update:
     updater()
-    quit()
+    sys.exit()
 
 # If the user has supplied a URL
 if args.root:
@@ -105,7 +105,7 @@ if args.root:
 # If the user hasn't supplied an URL
 else:
     print('\n' + parser.format_help().lower())
-    quit()
+    sys.exit()
 
 clone = args.clone
 headers = args.headers  # prompt for headers
@@ -127,7 +127,7 @@ if args.proxies:
     print("%s Done" % info)
     if not proxies:
         print("%s no working proxies, quitting!" % bad)
-        exit()
+        sys.exit()
 else:
     proxies.append(None)
 
@@ -162,7 +162,7 @@ if headers:
         prompt = prompt()
     except FileNotFoundError as e:
         print('Could not load headers prompt: {}'.format(e))
-        quit()
+        sys.exit()
     headers = extract_headers(prompt)
 
 # If the user hasn't supplied the root URL with http(s), we will handle it
