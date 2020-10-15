@@ -1,4 +1,5 @@
-# KITSUNE
+# kitsune
+[![DeepSource](https://deepsource.io/gh/rai0x90/kitsune.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/rai0x90/kitsune/?ref=repository-badge)
 
 **[!] I'm still working on this project and am long ways of finishing, but just wanted to upload the code to git cuz why not?**
 
