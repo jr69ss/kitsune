@@ -172,7 +172,6 @@ def main():
                 if anon == "y":
                     URL = input("Input URL of target website: ")
                     print("[*] Resolving hostanme to an IP address to prevent DNS leaks, ")
-                    import os
                     myCmd = 'tor-resolve ' + URL
                     os.system(myCmd)
                     print("[*] Now scanning ports")
@@ -184,7 +183,6 @@ def main():
 
                 if anon == "n":
                     URL = input("Input URL of target website: ")
-                    import os
                     myCmd = 'nmap -v ' + URL
                     print("ayyy u got em!")
 
