@@ -12,7 +12,7 @@ import time
 import warnings
 import random
 
-from core.colors import good, info, run, green, red, white, end, bad
+from core.colors import good, info, run, green, red, end, bad
 
 
 try:
