@@ -4,4 +4,4 @@
 **[!] work-in-progress. will keep updating as i write more code...**
 
 
-A simple end-to-end hacking framework from recon, OSINT, foothold, exploitation, maintaining access, and clean up. 
+A simple end-to-end (swiss army knife) hacking framework for recon, OSINT, foothold, exploitation, maintaining access, and clean up. 
