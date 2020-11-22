@@ -1,7 +1,0 @@
-requests
-requests[socks]
-urllib3
-tld
-tor
-
-
