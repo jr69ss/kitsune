@@ -2,7 +2,7 @@ import os
 import sys
 import subprocess
 from colorama import Fore, Style
-from modules.name_scraper.thatthem import thatthem_search
+from modules.name_scraper.namescraper import *
 
 
 def banner():
@@ -48,9 +48,9 @@ def options():
 
 def name():
     name = input("Enter name :: ")
-    addy = input("If you have a clue where they live pls enter :: ")
+    addy = input("Street, City, State, or ZIP :: ")
     print(Fore.GREEN + "[*] Recon Starting...")
-    thatthem_search(name, addy)
+    search(name, addy)
 
 
 
