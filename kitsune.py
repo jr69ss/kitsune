@@ -48,9 +48,9 @@ def options():
 
 def name():
     name = input("Enter name :: ")
-    addy = input("Street, City, State, or ZIP :: ")
     print(Fore.GREEN + "[*] Recon Starting...")
-    search(name, addy)
+    print(Style.RESET_ALL)
+    search(name)
 
 
 
